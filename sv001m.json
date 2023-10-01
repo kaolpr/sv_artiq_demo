@@ -1,0 +1,25 @@
+{
+    "target": "kasli",
+    "variant": "SV001M",
+    "hw_rev": "v2.0",
+    "base": "master",
+    "core_addr": "192.168.1.70",
+    "peripherals": [
+        {
+            "type": "sampler",
+            "ports": [0]
+        },
+        {
+            "type": "urukul",
+            "hw_rev": "v1.5",
+            "ports": [2,3],
+            "clk_sel": 2,
+            "dds": "ad9910",
+            "synchronization": true
+        },
+        {
+            "type": "phaser",
+            "ports": [4]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "target": "kasli",
+    "variant": "SV002S",
+    "hw_rev": "v2.0",
+    "base": "satellite",    
+    "peripherals": [
+        {
+            "type": "dio",
+            "ports": [0],
+            "bank_direction_low": "input",
+            "bank_direction_high": "input",
+            "edge_counter": true
+        },
+        {
+            "type": "zotino",
+            "ports": [1]
+        }
+    ]
+}
